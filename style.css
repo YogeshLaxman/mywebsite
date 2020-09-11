@@ -515,6 +515,9 @@ p {
 /*End contact Section */
 
 /* Footer */
+
+
+
 #footer {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
@@ -555,6 +558,29 @@ p {
 	color: white;
 	font-size: 1.3rem;
 }
+.link{
+	/* color: white;
+	text-decoration: none; */
+	/* font-size: 2.5rem;
+	font-weight: 500;
+	letter-spacing: .2rem; */
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	padding: 20px;
+	font-size:50pt;
+	/* display: block; */
+}
+
+.link:hover{
+	color: #1d1927;
+}
+#footer a::hover{
+	color: rgba(240, 248, 255, 0.021);
+	
+}
+
+
 /* End Footer */
 
 /* Keyframes */
@@ -590,6 +616,8 @@ p {
 	}
 }
 /* End Keyframes */
+
+
 
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
